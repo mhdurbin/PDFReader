@@ -9,7 +9,8 @@ import org.apache.pdfbox.text.PDFTextStripper;
 public class PDFReader{
 
 	public static void WriteFile (String output) throws IOException {
-
+		
+		//This is the name of the file to be pulled, but I would like to make this dynamic if possible?
 		String FileName = "C:/Users/Matthew/Documents/D&D/Book of Lost Spells (5E).txt";
 
 		FileWriter fw = new FileWriter(FileName);
